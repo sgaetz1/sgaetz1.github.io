@@ -3,11 +3,17 @@ body {
   height: 100%;
   padding: 10px;
   margin-top: 20px;
-  background-image: url('../photos/grand_targhee.JPG');
+  background-image: url('../images/grand_targhee.JPG');
   background-repeat: no-repeat;
   background-size: auto;
-  color:blue;
+  color:black;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: inline-block;
+  *display: inline;
+  zoom: 1
 }
 
 #about {
@@ -24,4 +30,22 @@ body {
     height: 400px;
     padding: 10px;
     margin: 10px;
+}
+
+#logos {
+  background-color: #a9a9a9;
+    color:black;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+}
+
+#projects {
+  background-color: #a9a9a9;
+    color:black;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 5px; 
 }
